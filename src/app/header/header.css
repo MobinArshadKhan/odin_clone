@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+/* HEADER COMPONENT */
+.headerContainer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*LOGO COMPONENT*/
+
+.logoContainer {
+  display: flex;
+}
+
+.logoImg {
+  width: 50px;
+  margin: auto 15px;
+}
+
+.title {
+  margin: auto 10px;
+  color: #cc9543;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+}
+
+/*INFO COMPONENT*/
+
+.infoContainer {
+  display: flex;
+}
+
+.user {
+  width: 40px;
+  height: 40px;
+  margin: auto 4px;
+  border-radius: 50%;
+}
+.infoContainer h4 {
+  color: #8d93ab;
+  font-size: 15px;
+  margin: auto 5px;
+}
+
+.btnImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: auto 4px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #382933;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 70px;
+  width: 140px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.4);
+}
+
+.sideBar {
+  width: 140px;
+  height: 400px;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  background-color: #59405c;
+  border-top: 2px solid white;
+  box-shadow: -2px 4px 2px rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 10px;
+  z-index: -1;
+}
+
+/*ADD MEDIA QUERY TO INFO SECTION*/
+
+@media (max-width: 690px) {
+  .infoContainer h4,
+  .user {
+    display: none;
+  }
+}
+
+@media (min-width: 691px) {
+  .btn {
+    display: none;
+  }
+  .sideBar {
+    display: none;
+  }
+}

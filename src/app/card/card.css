@@ -1,0 +1,51 @@
+/* MAIN CARD COMPONENT */
+
+.cardContainer {
+  width: 60%;
+  height: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.cbtnWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+/* CNAME COMPONENT */
+
+.course {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #4c4c4c;
+  font-weight: normal;
+}
+
+/*BUTTON COMPONENT*/
+.btn-change {
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+  color: black;
+  background: #cc9543;
+  color: white;
+  font-size: 20px;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn-change:hover {
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.4);
+}
+/*MEDIA FOR CNAME*/
+
+@media (max-width: 1050px) {
+  .cname {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+}

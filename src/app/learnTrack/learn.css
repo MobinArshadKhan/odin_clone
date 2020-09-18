@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+.learnContainer {
+  width: 65%;
+  margin: 8% auto;
+  text-align: center;
+  z-index: 2;
+}
+
+.subheading {
+  font-family: "Amatic SC", cursive;
+  color: #cc9543;
+  letter-spacing: 3px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.p1 {
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.p2 {
+  font-size: 19px;
+  letter-spacing: 1.5px;
+  color: #7e8a97;
+}
+
+.p3 {
+  font-size: 19px;
+  letter-spacing: 2px;
+  color: #7e8a97;
+  line-height: 25px;
+}
